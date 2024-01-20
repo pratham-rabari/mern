@@ -1,0 +1,64 @@
+.imag{
+    width:33px;
+    height:69px;
+    border-radius: 50%;
+}
+.postbox{
+border: 2px solid black;
+border-radius: 10px;
+/* top: 0%;
+left: 0%; */
+}
+.icon{
+    width:23px;
+    height:25px;
+}
+.postimag{
+    width:500px;
+    height:280px;
+    border-radius: 10px;
+}
+
+.cpic{
+    border-radius: 50%;
+    width:34px;
+    height: 30px;
+}
+.cbox{
+    height: 150px;
+    overflow:auto;
+}
+.in{
+    width:300px;
+    border-radius: 12px;
+}
+
+.set{
+    position: absolute;
+    right:0;
+}
+.icon2{
+    width:28px;
+    height:30px;
+}
+.icon2:hover{
+    width:24px;
+    height:27px;
+}
+
+@media(max-width:450px){
+    .postimag{
+        width:219px;
+        height:256px;
+        border-radius: 10px;
+        object-fit: fill;
+    }
+    .postbox2{
+        position: relative;
+        left: 0px;
+  padding: 0px;
+    }
+    .card-border{
+        padding: 0px;
+    }
+}

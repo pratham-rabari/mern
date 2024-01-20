@@ -1,0 +1,6 @@
+.box1{
+  /* position: fixed; */
+  height: 100%;
+  border:6px solid black;
+  border-radius: 10px;
+}
